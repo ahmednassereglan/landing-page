@@ -7,18 +7,19 @@
 
 body{
     width: 100%;
-    background: linear-gradient(180deg, rgb(0, 140, 255), rgb(153, 0, 255));
+    background: linear-gradient(180deg, rgb(28, 81, 124), rgb(153, 0, 255));
 }
 
 
 /* header */
 
 .__header{
-    min-height: 60px;
-    display: flex;
+    min-height: 55px;
     position: fixed;
     right: 0;
-    
+    top: 0;
+    left: 0;
+    background: white;
 }
 .header__nav{
     display: flex;
@@ -35,10 +36,23 @@ body{
     padding: 10px;
     cursor: pointer;
     line-height: 50px;
-    padding: 5px 40px;
+    padding: 2px 40px;
 }
 .list__item:hover{
     background-color: cornflowerblue;
     color: #fff;
 
+}
+
+/* main */
+.__main{
+    margin: 200px 20px 150px;
+
+}
+
+.main_title{
+    color: white;
+    font-size: 65px;
+    font-weight: 1000;
+    margin: 150px 0;
 }
