@@ -7,4 +7,38 @@
 
 body{
     width: 100%;
+    background: linear-gradient(180deg, rgb(0, 140, 255), rgb(153, 0, 255));
+}
+
+
+/* header */
+
+.__header{
+    min-height: 60px;
+    display: flex;
+    position: fixed;
+    right: 0;
+    
+}
+.header__nav{
+    display: flex;
+    
+}
+.nav__list{
+  display: flex;
+  align-items: stretch;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+.list__item{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    line-height: 50px;
+    padding: 5px 40px;
+}
+.list__item:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+
 }
