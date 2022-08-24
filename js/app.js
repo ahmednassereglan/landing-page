@@ -87,7 +87,7 @@ function selectItemOnScroll() {
 
 // Hide fixed navigation bar while not scrolling
 let scroll;
-document.selectItemOnScroll = () => {
+document.onscroll = () => {
     header.style.display = "block"
     clearTimeout(scroll)
     scroll = setTimeout(() => {
